@@ -19,9 +19,9 @@ async function main() {
                 text: JSON.stringify(languageScrapped, null, 2),
             });
         }
-
     } catch (error) {
-        console.error("❌ =>", { error });
+
+        console.error("❌ =>", error);
     }
 }
 

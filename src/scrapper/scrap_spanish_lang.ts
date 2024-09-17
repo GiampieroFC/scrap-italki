@@ -21,13 +21,13 @@ export async function scrapSpanishLang() {
 
     const languageScrapped = await page.evaluate(function () {
 
-        interface languageScrapped {
-            language: string;
+        interface LanguageScrapped {
+            language: string | 'empty';
             pro: string;
             tutor: string;
         }
 
-        let result: languageScrapped = {
+        let result: LanguageScrapped = {
             language: 'empty',
             pro: 'empty',
             tutor: 'empty',
