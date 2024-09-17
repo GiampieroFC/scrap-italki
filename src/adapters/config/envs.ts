@@ -9,6 +9,7 @@ export enum Envs {
     MAIL_OPTIONS_TO = "MAIL_OPTIONS_TO",
     SCRAP_URL = "SCRAP_URL",
     USER_AGENT = "USER_AGENT",
+    EXEC_PATH_CHROME = "EXEC_PATH_CHROME",
 }
 
 

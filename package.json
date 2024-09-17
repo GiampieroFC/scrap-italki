@@ -12,7 +12,8 @@
   },
   "scripts": {
     "dev": "bun --watch src/app.ts",
-    "start": "bun run src/app.ts"
+    "start": "bun run src/app.ts",
+    "build": "bun build --compile --minify --target=bun-linux-x64-modern ./src2/app.ts --outfile scrap-italki"
   },
   "name": "scrap-italki",
   "module": "index.ts",

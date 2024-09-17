@@ -4,7 +4,7 @@ import { Envs, getEnv } from "../adapters/config/envs";
 
 export async function scrapSpanishLang() {
 
-    const browser = await puppeteer.launch(/* { executablePath: '/chrome-linux/chrome_sandbox' } */);
+    const browser = await puppeteer.launch({ executablePath: getEnv(Envs.EXEC_PATH_CHROME) });
     const page = await browser.newPage(
         // {
         // headless: true,
