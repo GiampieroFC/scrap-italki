@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "nodemailer": "^6.9.14",
+    "puppeteer": "^23.1.0",
+    "puppeteer-core": "^23.1.0"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.15",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.4",
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev": "bun --watch src/app.ts",
+    "start": "bun run src/app.ts"
+  },
+  "name": "scrap-italki",
+  "module": "index.ts",
+  "type": "module"
+}
